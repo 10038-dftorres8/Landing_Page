@@ -1,0 +1,40 @@
+body, html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background:  linear-gradient(rgba(153, 211, 177, 0.606), rgba(76, 213, 149, 0.596)), url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    height: 200px;
+}
+
+.text-descripcion{
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.form-control{
+    background: transparent !important;
+    color: #ffff !important;
+}
+
+a .fab {
+    color: #ffff;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.shadow-text{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+.form-control::placeholder{
+    color: rgb(255,255,255,0.75);
+}
